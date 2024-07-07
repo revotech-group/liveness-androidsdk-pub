@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.github.mehdiwaysi</groupId>
+    <artifactId>biopass-sdk</artifactId>
+    <version>1.0.1</version>
+    <dependencies>
+        <!-- AndroidX Core -->
+        <dependency>
+            <groupId>androidx.core</groupId>
+            <artifactId>core-ktx</artifactId>
+            <version>1.12.0</version>
+        </dependency>
+        <!-- AndroidX AppCompat -->
+        <dependency>
+            <groupId>androidx.appcompat</groupId>
+            <artifactId>appcompat</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+        <!-- Material Components for Android -->
+        <dependency>
+            <groupId>com.google.android.material</groupId>
+            <artifactId>material</artifactId>
+            <version>1.11.0</version>
+        </dependency>
+        <!-- Constraint Layout -->
+        <dependency>
+            <groupId>androidx.constraintlayout</groupId>
+            <artifactId>constraintlayout</artifactId>
+            <version>2.1.4</version>
+        </dependency>
+        <!-- JUnit -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.13.2</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- AndroidX Test Ext JUnit -->
+        <dependency>
+            <groupId>androidx.test.ext</groupId>
+            <artifactId>junit</artifactId>
+            <version>1.1.5</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Espresso Core -->
+        <dependency>
+            <groupId>androidx.test.espresso</groupId>
+            <artifactId>espresso-core</artifactId>
+            <version>3.5.1</version>
+            <scope>test</scope>
+        </dependency>
+        <!-- Gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+        <!-- Retrofit -->
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>retrofit</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!-- Retrofit Gson Converter -->
+        <dependency>
+            <groupId>com.squareup.retrofit2</groupId>
+            <artifactId>converter-gson</artifactId>
+            <version>2.9.0</version>
+        </dependency>
+        <!-- Camera Core -->
+        <dependency>
+            <groupId>androidx.camera</groupId>
+            <artifactId>camera-core</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <!-- Camera Camera2 -->
+        <dependency>
+            <groupId>androidx.camera</groupId>
+            <artifactId>camera-camera2</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <!-- Camera Lifecycle -->
+        <dependency>
+            <groupId>androidx.camera</groupId>
+            <artifactId>camera-lifecycle</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <!-- Camera View -->
+        <dependency>
+            <groupId>androidx.camera</groupId>
+            <artifactId>camera-view</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <!-- Camera Extensions -->
+        <dependency>
+            <groupId>androidx.camera</groupId>
+            <artifactId>camera-extensions</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <!-- Kotlin Serialization JSON -->
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-serialization-json</artifactId>
+            <version>1.2.2</version>
+        </dependency>
+        <!-- ML Kit Face Detection -->
+        <dependency>
+            <groupId>com.google.mlkit</groupId>
+            <artifactId>face-detection</artifactId>
+            <version>16.1.6</version>
+        </dependency>
+        <!-- ML Kit Image Labeling -->
+        <dependency>
+            <groupId>com.google.mlkit</groupId>
+            <artifactId>image-labeling</artifactId>
+            <version>17.0.8</version>
+        </dependency>
+        <!-- Kotlin Coroutines JDK8 -->
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-coroutines-jdk8</artifactId>
+            <version>1.6.4</version>
+        </dependency>
+        <!-- Kotlin Coroutines Android -->
+        <dependency>
+            <groupId>org.jetbrains.kotlinx</groupId>
+            <artifactId>kotlinx-coroutines-android</artifactId>
+            <version>1.7.1</version>
+        </dependency>
+        <!-- AndroidX Lifecycle Runtime KTX -->
+        <dependency>
+            <groupId>androidx.lifecycle</groupId>
+            <artifactId>lifecycle-runtime-ktx</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <!-- AndroidX Lifecycle ViewModel KTX -->
+        <dependency>
+            <groupId>androidx.lifecycle</groupId>
+            <artifactId>lifecycle-viewmodel-ktx</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+        <!-- AndroidX Lifecycle LiveData KTX -->
+        <dependency>
+            <groupId>androidx.lifecycle</groupId>
+            <artifactId>lifecycle-livedata-ktx</artifactId>
+            <version>2.7.0</version>
+        </dependency>
+    </dependencies>
+</project>

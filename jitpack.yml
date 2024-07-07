@@ -1,0 +1,7 @@
+#install:
+#  - FILE="-Dfile=passportreader-release.aar"
+#  - mvn install:install-file $FILE -DgroupId=com.github.som1361 -DartifactId=epassport-reader -Dversion=0.0.4 -Dpackaging=aar -DpomFile=pom.xml
+#
+install:
+  - FILE="-Dfile=livenesssdk-release.aar"
+  - mvn install:install-file $FILE -DgroupId=com.github.mehdiwaysi -DartifactId=liveness-sdk -Dversion=1.0.0 -Dpackaging=aar -DpomFile=pom.xml
